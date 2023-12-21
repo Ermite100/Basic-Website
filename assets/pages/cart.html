@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <!-- Metas -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- CSS Link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.1/fonts/remixicon.min.css">        
+        <link rel="stylesheet" href="../css/styles.css">
+        
+        <title>ARMG Website</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="../../index.html" class="logo">
+                <span>.</span>ARMG Store
+            </a>
+            
+            <ul id="h-nav">
+                <li><a href="../../index.html">home</a></li>
+                <li><a href="./shop.html">shop</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="../about.html">about</a></li>
+                <li><a href="./contact.html">contact</a></li>
+                <li id="lg-baske"><a href="./cart.html"  class="link-active"><i class="ri-shopping-basket-fill"></i></a></li>
+                <a href="#" id="close">
+                    <i class="ri-menu-unfold-fill"></i>
+                </a>
+            </ul>
+            
+            <div id="mobile">
+                <a href="./cart.html"><i class="ri-shopping-basket-fill"></i></a>
+                <i id="bar" class="ri-menu-fold-fill"></i>
+            </div>
+        </header>
+        
+        <main>
+            <section id="header-page" class="cart-head">
+                <h2>#cart</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+
+            <section id="cart" class="sect-p">
+                <table width="100%">
+                    <thead class="title">
+                        <tr>
+                            <td>remove</td>
+                            <td>images</td>
+                            <td>product</td>
+                            <td>price</td>
+                            <td>quantity</td>
+                            <td>subtotal</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="ri-delete-bin-2-line"></i></td>
+                            <td><img src="../img/products/p1.jpg" alt=""></td>
+                            <td>T-Shirts</td>
+                            <td>$15</td>
+                            <td><input type="number" value="1"></td>
+                            <td>$15</td>
+                        </tr>
+    
+                        <tr>
+                            <td><i class="ri-delete-bin-2-line"></i></td>
+                            <td><img src="../img/products/p12.jpg" alt=""></td>
+                            <td>T-Shirts</td>
+                            <td>$15</td>
+                            <td><input type="number" value="1"></td>
+                            <td>$15</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><i class="ri-delete-bin-2-line"></i></td>
+                            <td><img src="../img/shoes/1.jpg" alt=""></td>
+                            <td>Shoes</td>
+                            <td>$45</td>
+                            <td><input type="number" value="1"></td>
+                            <td>$45</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><i class="ri-delete-bin-2-line"></i></td>
+                            <td><img src="../img/watches/w03.jpg" alt=""></td>
+                            <td>Watches</td>
+                            <td>$35</td>
+                            <td><input type="number" value="1"></td>
+                            <td>$35</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="cart-add" class="sect-p">
+                <div id="coupon">
+                    <h3>Apply coupon</h3>
+                    <div>
+                        <input type="text" placeholder="Enter Your coupon">
+                        <button class="stand">Apply</button>
+                    </div>
+                </div>
+    
+                <div id="subtotal">
+                    <h3>cart totals</h3>
+                    <table>
+                        <tr>
+                            <td>cart subtotal</td>
+                            <td>$ 185.00</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong>$ 185.00</strong></td>
+                        </tr>
+                    </table>
+                    <button class="stand">Proceed to checkout</button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="sect-p">
+            <div class="col">
+                <a href="#" class="logo"><span>.</span>ARMG Store</a>
+                <h4>Contact</h4>
+                <p><strong>address: </strong>Agori-Finafa, Abomey-Calavi, Bénin</p>
+                <p><strong>phone: </strong>(+229) 99 XX XX XX / +229 62 XX XX XX</p>
+                <p><strong>hours: </strong>09:00 - 19:00, Mon - Sat</p>
+                <div class="follows">
+                    <h4>follows us</h4>
+                    <div class="icons">
+                        <i class="ri-facebook-box-fill" id="face"></i>
+                        <i class="ri-twitter-fill" id="twit"></i>
+                        <i class="ri-instagram-fill" id="insta"></i>
+                        <i class="ri-youtube-fill" id="yout"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <h4>about</h4>
+                <a href="./about.html">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="./contact.html">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>featured</h4>
+                <a href="#">Products</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Our Shoes</a>
+                <a href="#">Our Watches</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>install app</h4>
+                <p>From Google Play or App Store</p>
+                <div class="row">
+                    <img src="../img/pay/play.jpg" alt="">
+                    <img src="../img/pay/app.jpg" alt="">
+                </div>
+                <p>Secure Payment Gateways</p>
+                <img src="../img/pay/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>© 2023, Ermite Develop. All Right Reseved</p>
+            </div>
+        </footer>
+        
+        <script src="../js/main.js"></script>
+    </body>
+</html>
